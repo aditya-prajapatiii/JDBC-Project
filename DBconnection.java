@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public class DBconnection {
     private static final String URL = "jdbc:mysql://localhost:3306/smartstudent?useSSL=false&serverTimezone=UTC";
     private static final String USER = "root"; // change if your MySQL user is different
-    private static final String PASSWORD = "AD@274208"; // put your real MySQL password
+    private static final String PASSWORD = "password"; // put your real MySQL password
 
     public static Connection getConnection() {
         Connection conn = null;
@@ -28,5 +28,6 @@ public class DBconnection {
         return conn;
     }
 }
+
 
 
